@@ -1,0 +1,42 @@
+
+body {
+    background: azure;
+}
+
+#main-header {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#task-input {
+    border: 1px solid darkgreen;
+    border-radius: 10px;
+    font-size: 16px;
+    height: 45px;
+    width: 400px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#btnAdd {
+    color: white;
+    background: darkgreen;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    height: 50px;
+    width: 100px;
+    font-weight: bold;
+}
+
+#btnAdd:hover {
+    color: darkgreen;
+    background: azure;
+    border: 3px solid darkgreen;
+    cursor: pointer;
+}
