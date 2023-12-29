@@ -40,3 +40,69 @@ body {
     border: 3px solid darkgreen;
     cursor: pointer;
 }
+
+#sub-header {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.main-container {
+    width: 45vw;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#tasks {
+    list-style: none;
+}
+
+ul > li {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #050621;
+    margin-bottom: 0.8em;
+    font-size: 16px;
+    padding: 0.5em;
+    border: 1px solid #8aa7ec;
+    border-radius: 10px;
+}
+
+.content {
+    flex: 1;
+}
+
+.delete {
+    color: white;
+    background-color: red;
+    border: none;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.delete:hover {
+    color: red;
+    background-color: white;
+    border: 3px solid red;
+    cursor: pointer;
+}
+
+.done {
+    color: white;
+    background-color: darkgreen;
+    border: none;
+    font-size: 12px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.done:hover {
+    color: darkgreen;
+    background-color: white;
+    border: 3px solid darkgreen;
+    margin-right: 10px;
+    cursor: pointer;
+}
