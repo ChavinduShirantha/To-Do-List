@@ -5,7 +5,7 @@
 * CSS
 
 
-### -Portfolio
+### -To-Do-List
 * 🔗 <a href="https://github.com/ChavinduShirantha/To-Do-List" target="_blank">GitHub Project Link</a>
 * 🔗 <a href="https://chavindushirantha.github.io/To-Do-List/" target="_blank">GitHub Page</a>
 
